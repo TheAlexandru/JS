@@ -1,0 +1,53 @@
+#theMap{
+	padding:5px;
+	padding-top:50px;
+	padding-bottom: -50px;
+	border: 1px solid #999;
+	font-family: monospace;
+	height:100px;
+	
+}
+
+
+
+#theMap img{
+	transform: scaleX(-1);
+	transition: 2s;
+}
+.c-small{
+	font-size:18px;
+}
+.c-mediu{
+	font-size:25px;
+}
+ .c-big{
+	font-size:35px;
+}
+
+#theMap .c-small{
+	font-size:18px;
+	
+}
+
+#theMap .c-mediu{
+	font-size:25px;
+}
+
+#theMap .c-big{
+	font-size:35px;
+}
+
+#theMap img.jump{
+	transform: scaleX(-1)  translateY(-50px) ;	
+	transition: 2s;
+	
+}
+
+#alert-text{
+	text-align: center;
+}
+
+
+
+
+
