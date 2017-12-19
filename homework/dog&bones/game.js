@@ -1,4 +1,3 @@
-//var bone_nr = 0;
 function findNextBone(){
 	var bone = document.getElementsByClassName('bone');
 	if(bone.length > 0){
