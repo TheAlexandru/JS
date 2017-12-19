@@ -15,7 +15,3 @@ function updateTermometer(){
 		alert_area.innerText= alert;
 	}
 }
-
-var minus = Math.abs(-10);
-var math = 60 + (Math.abs(-10)*3);
-console.log(minus);
