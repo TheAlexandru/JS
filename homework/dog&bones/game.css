@@ -1,0 +1,42 @@
+#yard{
+  border:3px solid green;
+  width:640px;
+  height: 640px;
+}
+#yard div{
+  width: 64px;
+  height: 64px;
+  float:left;
+}
+
+#yard .grass{
+	content:'';
+	background: url(dog-game.png);
+	background-position: -10px -136px;
+	display:inline-block;
+}
+#yard .bone{
+  	content:'';
+	background: url(dog-game.png);
+	background-position: -521px -199px;
+	display:inline-block;
+}
+#yard .bone-found{
+   	content:'';
+	background: url(dog-game.png);
+	background-position: -585px -327px;
+	display:inline-block;
+}
+
+button{
+   	content:'';
+	background: url(dog-game.png);
+	background-position: -7px -4px;
+	display:inline-block;
+  width: 128px;
+  height: 128px;
+}
+
+button:hover{
+	cursor:pointer;
+}
