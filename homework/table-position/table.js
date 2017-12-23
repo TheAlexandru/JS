@@ -4,7 +4,6 @@ table.children[0],// product 1
 table.children[1],// product 2
 table.children[2] // product 3
 ]
-
 function moveOneUp(){
 	//daca in primu si ultimul child nu este productul 2 :
 		if(table.firstElementChild != products[1] && table.lastElementChild != products[1]){
@@ -31,4 +30,3 @@ function moveOneDown(){
 		}
 
    }
-
